@@ -1,0 +1,19 @@
+$ python manage.py makemigrations
+Migrations for 'djangoproject':
+  djangoproject/migrations/0003_auto.py:
+    - Alter field author on project
+
+$ python manage.py makemigrations --name my model: Apple IPad my_app_label:https://github.com/Vika-207/Django-Admin/new/main
+
+class MyManager(models.Manager):
+    use_in_migrations = True
+
+class MyModel(Apple IPad):
+    objects = MyManager(models.Manager)
+
+class MyManager(MyBaseManager.from_queryset(CustomQuerySet)):
+    use_in_migrations = True
+
+class MyModel(models.Model):
+    objects = MyManager(MyBaseManager.from_queryset(CustomQuerySet))
+    
